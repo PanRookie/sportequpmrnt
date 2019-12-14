@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+}
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.left {
+	width: 168px;
+	margin-right: 10px;
+	min-height: 520px;
+	border-top: 2px solid #E9E9E9;
+	border-right: 2px solid #9A9A9A;
+}
+
+.left .function-show {
+	width: 140px;
+	height: 30px;
+	border-radius: 4px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	background: #60b3e7;
+	margin: 10px auto;
+	box-shadow: 4px 4px rgba(212, 212, 212, 0.7);
+	font-size: 14px;
+}
+
+.left .function-show span {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: radial-gradient(#70c2f4, #3a8dc1, #035384, #4696c7, #83d1f5);
+	border-radius: 50%;
+}
+.list {
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list li {
+	text-align:center;
+	border-bottom: 1px solid #E9E9E9;
+	padding: 13px;
+	list-style: none;
+}
+
+
+.list li:hover {
+	background-color: #acd5f5;
+	border-radius: 4px;
+}
+
+.list li:active,#active {
+	background-color: #92c609;
+	border-radius: 4px;
+}
+
+.list a {
+	color: #0042a8;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.seek-equipment{
+	width: 160;
+	height: 90px;
+	display: none;
+}
+.seek-equipment li {
+	text-align:center;
+	border-bottom: 1px solid #E9E9E9;
+	padding: 6px;
+	background-color:#134F76;
+	list-style: none;
+}
+.seek-equipment li a{
+	color: white;
+}
+
+
+
+
+.seek-borrow{
+	width: 160;
+	height: 90px;
+	display: none;
+}
+.seek-borrow li {
+	text-align:center;
+	border-bottom: 1px solid #E9E9E9;
+	padding: 6px;
+	background-color:#134F76;
+	list-style: none;
+}
+.seek-borrow li a{
+	color: white;
+}
+
+
+.seek-set{
+	width: 160;
+	height: 90px;
+	display: none;
+}
+.seek-set li {
+	text-align:center;
+	border-bottom: 1px solid #E9E9E9;
+	padding: 6px;
+	background-color:#134F76;
+	list-style: none;
+}
+.seek-set li a{
+	color: white;
+}
+/* .seek-equipment li:HOVER{
+	text-align:center;
+	border-bottom: 1px solid #E9E9E9;
+	padding: 13px;
+	list-style: none;
+} */

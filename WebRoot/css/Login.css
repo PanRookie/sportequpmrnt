@@ -1,0 +1,131 @@
+body {
+	background-color: #F1F1F1;
+}
+
+.login-main {
+	width: 1000px;
+	height: 480px;
+	margin: 0 auto;
+	background-image: url("../images/timg.jpg");
+}
+
+.imagetitle {
+	margin: 0 auto;
+	width: 900px;
+	height: 160px;
+	position: relative;
+	background-color: green;
+}
+
+.imagetitle img {
+	width: 900px;
+	height: 160px;
+}
+
+.login-main-input {
+	width: 280px;
+	height: 360px;
+	margin: 0 auto;
+	margin-top: 60px;
+	float: right;
+	background-color: white;
+}
+
+.login-main .login-main-input .form-group {
+	width: 280px;
+	height: 40px;
+	text-indent: 1em;
+	margin-top: 16px;
+}
+
+.login-main .login-main-input .form-group select {
+	background-color: #0080C4;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	font-family: '华文新魏';
+}
+
+.login-main .login-main-input .form-group a {
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	font-family: '华文新魏';
+}
+
+.login-main .login-main-input .form-group:FIRST-CHILD {
+	margin-top: 10px;
+	height: 22px;
+	width: 100px;
+	background-color: #0080C4;
+}
+
+.login-main .login-main-input .form-group input {
+	width: 250px;
+	height: 35px;
+	border: 1px solid #D5DBE2;
+	border-radius: 3px;
+	font-size: 13px;
+}
+
+.login-main .login-main-input .form-group:nth-child(4) input {
+	width: 80px;
+}
+
+.login-main .login-main-input .form-group:nth-child(4) img {
+	
+}
+
+.login-main .login-main-input .form-group:nth-child(4) a {
+	font-size: 12px;
+	color: blue;
+	text-decoration: none;
+}
+
+.login-main .login-main-input .form-group:nth-child(5) {
+	height: 35px;
+}
+
+.login-main .login-main-input .form-group .remember {
+	width: 100px;
+	height: 15px;
+	float: left;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+.login-main .login-main-input .form-group .remember input {
+	width: 12px;
+	height: 12px;
+	border-radius: 3px;
+}
+
+.login-main .login-main-input .form-group .forgetpassword {
+	width: 80px;
+	height: 15px;
+	float: right;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.login-main .login-main-input .form-group .forgetpassword a {
+	font-size: 12px;
+	color: blue;
+	text-decoration: none;
+}
+
+.login-main .login-main-input .form-group:last-child input {
+	width: 80px;
+	height: 30px;
+	margin-left: 30px;
+	color: white;
+}
+
+.btnsubmit {
+	background-color: #23AEF4;
+}
+
+.btnregister {
+	background-color: #23AEF4;
+}

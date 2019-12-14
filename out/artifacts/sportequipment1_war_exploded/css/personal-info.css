@@ -1,0 +1,52 @@
+.wide-content{
+	width: 1200px;
+	height: 650px;
+	margin-left: 20px;
+	float: left;
+
+}
+.wide-content .avatar-box{
+	width: 270px;
+	height: 650px;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+	border-right: 2px solid #BABEB6;
+	
+}
+.wide-content .avatar-box p{
+	text-align: center;
+}
+.wide-content .avatar-box .file{
+	width: 80px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.wide-content .avatar-box .personal-image{
+	width: 95px;
+	height: 130px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.wide-content .avatar-box .personal-image img{
+	width: 95px;
+	height: 130px;
+}
+.wide-content .personal-info{
+	width: 800px;
+	height: 650px;
+	display: inline-block;
+	margin: 20px;
+
+}
+.wide-content .personal-info .field-box{
+	width: 400px;
+	height: 40px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.wide-content .personal-info .field-box a{
+	color: #73C62B;
+	font-size: 13px;
+}

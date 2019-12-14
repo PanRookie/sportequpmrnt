@@ -1,0 +1,17 @@
+[{  
+    "ProID": 1,  
+    "name": "电子信息工程学院",
+    "ProSort": 1,    
+}, {  
+    "ProID": 2,  
+    "name": "社会发展学院",  
+    "ProSort": 2,  
+}, {  
+    "ProID": 3,  
+    "name": "美术学院",  
+    "ProSort": 5,  
+}, {  
+    "ProID": 4,  
+    "name": "体育学院",  
+    "ProSort": 3,  
+}] 

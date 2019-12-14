@@ -1,0 +1,32 @@
+body {
+	border-top: 3px solid #9A9A9A
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.page-location {
+	height: 35px;
+	border-left: 1px solid #e6eaf6;
+	
+	background: linear-gradient(to bottom, #fefefe, #ffffff, #f6fafd);
+	color: #4a4a4a;
+	padding-left: 40px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.page-location a {
+	color: #2179A9;
+	font-size: 12px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+.page-location img{
+	width: 12px;
+	height: 12px;
+	margin-top: 7px;
+	margin-left: 5px;
+}

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.sportequipment.web.servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CodeServlet</servlet-name>
+		<servlet-class>com.sportequipment.web.servlet.CodeServlet</servlet-class>
+	</servlet>
+  
+
+<!--主页面的模块 -->
+	<servlet>
+		<servlet-name>frame</servlet-name>
+		<jsp-file>/WEB-INF/pages/frame/frame.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>userframe</servlet-name>
+		<jsp-file>/WEB-INF/pages/frame/userframe.jsp</jsp-file>
+	</servlet>
+
+	<servlet>   <!--顶部 -->
+		<servlet-name>top</servlet-name>
+		<jsp-file>/WEB-INF/pages/frame/top.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>userTop</servlet-name>
+		<jsp-file>/WEB-INF/pages/frame/userTop.jsp</jsp-file>
+	</servlet>
+
+	<servlet> <!--左部 -->
+		<servlet-name>control</servlet-name>
+		<jsp-file>/WEB-INF/pages/frame/control.jsp</jsp-file>
+	</servlet>
+
+	<servlet> <!--左部 -->
+		<servlet-name>usercontrol</servlet-name>
+		<jsp-file>/WEB-INF/pages/frame/usercontrol.jsp</jsp-file>
+	</servlet>
+
+	<servlet> <!--右部 -->
+		<servlet-name>right</servlet-name>
+		<jsp-file>/WEB-INF/pages/frame/right.jsp</jsp-file>
+	</servlet>
+
+	<servlet> <!--页面位置 -->
+		<servlet-name>location</servlet-name>
+		<jsp-file>/WEB-INF/pages/frame/location.jsp</jsp-file>
+	</servlet>
+
+
+	<!-- 添加器材模块 -->
+
+	<servlet>
+		<servlet-name>addequipment</servlet-name>
+		<jsp-file>/WEB-INF/pages/add_equipment/addEquipment.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>addemorequipment</servlet-name>
+		<jsp-file>/WEB-INF/pages/add_equipment/addmoreEquipment.jsp</jsp-file>
+	</servlet>
+
+
+	<!-- 查詢器材模块 -->
+
+	<servlet>
+		<servlet-name>equipmentSelectByPage</servlet-name>
+		<jsp-file>/WEB-INF/pages/select_equipment/equipmentSelectByPage.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>maintainSelectByPage</servlet-name>
+		<jsp-file>/WEB-INF/pages/select_equipment/MaintainSelectByPage.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>userSelectByPage</servlet-name>
+		<jsp-file>/WEB-INF/pages/select_equipment/userSelectByPage.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>myBorrow</servlet-name>
+		<jsp-file>/WEB-INF/pages/borrow_equipment/myBorrow.jsp</jsp-file>
+	</servlet>
+	<!--借出器材模块 -->
+
+	<servlet>
+		<servlet-name>borrowequipment</servlet-name>
+		<jsp-file>/WEB-INF/pages/borrow_equipment/borrow_equipment.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>userBorrow</servlet-name>
+		<jsp-file>/WEB-INF/pages/borrow_equipment/userBorrow.jsp</jsp-file>
+	</servlet>
+
+	<!--归还器材模块 -->
+
+	<servlet>
+		<servlet-name>returnequipment</servlet-name>
+		<jsp-file>/WEB-INF/pages/borrow_equipment/return_equipment.jsp</jsp-file>
+	</servlet>
+	
+	
+	<!--申请/审核分析模块 -->
+	
+	<servlet>
+		<servlet-name>myApply</servlet-name>
+		<jsp-file>/WEB-INF/pages/apply_equipment/myApply.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>allApply</servlet-name>
+		<jsp-file>/WEB-INF/pages/apply_equipment/allApply.jsp</jsp-file>
+	</servlet>
+	
+	<!--个人资料模块 -->
+	<servlet>
+		<servlet-name>UserDate</servlet-name>
+		<jsp-file>/WEB-INF/pages/personalData/UserDate.jsp</jsp-file>
+	</servlet>
+		<servlet>
+		<servlet-name>modUserDate</servlet-name>
+		<jsp-file>/WEB-INF/pages/personalData/modUserDate.jsp</jsp-file>
+	</servlet>
+	
+	
+	
+	
+	
+	<!--数据分析模块 -->
+
+	<servlet>
+		<servlet-name>equipnumberofuser</servlet-name>
+		<jsp-file>/WEB-INF/pages/analyze/equipNumberOfUser.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>EquipmentServlet</servlet-name>
+		<servlet-class>com.sportequipment.web.servlet.EquipmentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>MaintainServlet</servlet-name>
+		<servlet-class>com.sportequipment.web.servlet.MaintainServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>BorrowServlet</servlet-name>
+		<servlet-class>com.sportequipment.web.servlet.BorrowServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>com.sportequipment.web.servlet.AdminServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ApplyServlet</servlet-name>
+		<servlet-class>com.sportequipment.web.servlet.ApplyServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/servlet/UserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CodeServlet</servlet-name>
+		<url-pattern>/servlet/CodeServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>frame</servlet-name>
+		<url-pattern>/frame</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>userframe</servlet-name>
+		<url-pattern>/userframe</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>top</servlet-name>
+		<url-pattern>/top</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>userTop</servlet-name>
+		<url-pattern>/userTop</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>control</servlet-name>
+		<url-pattern>/control</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>usercontrol</servlet-name>
+		<url-pattern>/usercontrol</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>right</servlet-name>
+		<url-pattern>/right</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>location</servlet-name>
+		<url-pattern>/location</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>addequipment</servlet-name>
+		<url-pattern>/addequipment</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>addemorequipment</servlet-name>
+		<url-pattern>/addemorequipment</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EquipmentServlet</servlet-name>
+		<url-pattern>/servlet/EquipmentServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>equipmentSelectByPage</servlet-name>
+		<url-pattern>/equipmentSelectByPage</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>maintainSelectByPage</servlet-name>
+		<url-pattern>/maintainSelectByPage</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>borrowequipment</servlet-name>
+		<url-pattern>/borrowequipment</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>returnequipment</servlet-name>
+		<url-pattern>/returnequipment</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>equipnumberofuser</servlet-name>
+		<url-pattern>/equipnumberofuser</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>userSelectByPage</servlet-name>
+		<url-pattern>/userSelectByPage</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>userBorrow</servlet-name>
+		<url-pattern>/userBorrow</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>myApply</servlet-name>
+		<url-pattern>/myApply</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>allApply</servlet-name>
+		<url-pattern>/allApply</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>myBorrow</servlet-name>
+		<url-pattern>/myBorrow</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>UserDate</servlet-name>
+		<url-pattern>/UserDate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>modUserDate</servlet-name>
+		<url-pattern>/modUserDate</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>MaintainServlet</servlet-name>
+		<url-pattern>/servlet/MaintainServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BorrowServlet</servlet-name>
+		<url-pattern>/servlet/BorrowServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/servlet/AdminServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ApplyServlet</servlet-name>
+		<url-pattern>/servlet/ApplyServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

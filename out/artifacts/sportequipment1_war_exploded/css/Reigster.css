@@ -1,0 +1,256 @@
+body {
+	background-color: #F1F1F1;
+}
+
+.imagetitle {
+	margin: 0 auto;
+	width: 900px;
+	height: 160px;
+	position: relative;
+	background-color: green;
+}
+
+.imagetitle img {
+	width: 900px;
+	height: 160px;
+}
+
+.reigster-input {
+	width: 1000px;
+	height: 540px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #666666;
+	font-size: 13px;
+	padding-left: 30px;
+	position: relative;
+	background-color: White;
+}
+
+.reigster-progress {
+	width: 800px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+/*填写进度条*/
+.reigster-progress-accom,.reigster-progress-authm,.reigster-progress-ok
+	{
+	width: 120px;
+	height: 25px;
+	float: left;
+	margin-left: 85px;
+	margin-top: 20px;
+	background-color: #E4ECE5;
+	border-radius: 20px;
+	padding-top: 6px;
+	padding-left: 30px;
+	font-size: 14px;
+}
+
+.reigster-progress-accom:hover {
+	cursor: pointer;
+}
+
+.reigster-progress-authm:hover {
+	cursor: pointer;
+}
+
+/*1.填写基本信息*/
+.reigsterinput-progress-accom {
+	width: 600px;
+	height: 440px;
+	font-size: 13px;
+	padding-left: 30px;
+	position: absolute;
+	top: 15%;
+	left: 20%;
+}
+
+/*2.填写认证资料*/
+.reigsterinput-progress-authm {
+	width: 600px;
+	height: 440px;
+	font-size: 13px;
+	padding-left: 30px;
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	display: none;
+}
+/*1.填写基本信息      输入*/
+.reigsterinput-progress-accom .form-group {
+	width: 450px;
+	height: 40px;
+	text-indent: 2em;
+	margin-top: 14px;
+}
+
+.reigsterinput-progress-accom .form-group:nth-child(2) {
+	text-indent: 3em;
+}
+
+.reigsterinput-progress-accom .form-group:nth-child(3) {
+	text-indent: 1em;
+}
+
+.reigsterinput-progress-accom .form-group:nth-child(4) {
+	text-indent: 3em;
+}
+
+.reigsterinput-progress-accom .form-group:nth-child(5) {
+	text-indent: 1em;
+}
+
+.reigsterinput-progress-accom .form-group:nth-child(6) {
+	text-indent: 1em;
+}
+
+.reigsterinput-progress-accom .form-group input {
+	width: 250px;
+	height: 35px;
+	border: 1px solid #D5DBE2;
+	margin-left: 20px;
+}
+
+.reigsterinput-progress-accom .form-group:nth-child(7) input {
+	width: 80px;
+}
+
+.reigsterinput-progress-accom .form-group .btnNext {
+	width: 100px;
+	height: 30px;
+	margin-left: 350px;
+}
+
+.reigsterinput-progress-accom .form-group:nth-child(4) input {
+	width: 13px;
+	height: 13px;
+	border: 1px solid #D5DBE2;
+	margin-left: 30px;
+	margin-top: 8px;
+}
+
+#academyid,#positionid {
+	width: 200px;
+	height: 28px;
+	border: 1px solid #D5DBE2;
+	margin-left: 20px;
+}
+
+#majorid {
+	width: 200px;
+	height: 28px;
+	border: 1px solid #D5DBE2;
+	margin-left: 20px;
+}
+
+/*2.填写认证资料        输入*/
+.reigsterinput-progress-authm .form-group {
+	width: 450px;
+	height: 40px;
+	text-indent: 3em;
+	margin-top: 14px;
+}
+
+.reigsterinput-progress-authm .form-group:nth-child(3) {
+	text-indent: 1em;
+}
+
+.reigsterinput-progress-authm.form-group:nth-child(4) {
+	text-indent: 3em;
+}
+
+.reigsterinput-progress-authm .form-group:nth-child(5) {
+	text-indent: 0em;
+}
+
+.reigsterinput-progress-authm .form-group:last-child {
+	width: 550px;
+	height: 40px;
+	text-indent: 3em;
+	margin-top: 80px;
+}
+
+.reigsterinput-progress-authm .form-group input {
+	width: 250px;
+	height: 35px;
+	border: 1px solid #D5DBE2;
+	margin-left: 20px;
+}
+
+.reigsterinput-progress-authm .form-group .btnsubmit {
+	width: 90px;
+	height: 28px;
+	float: left;
+	margin-left: 280px;
+}
+
+.reigsterinput-progress-authm .form-group .btnreset {
+	width: 90px;
+	height: 28px;
+	float: left;
+	margin-left: 20px;
+}
+
+/*按钮样式设置*/
+.btnNext,.btnsubmit,.btnreset,.btnReturnLogin {
+	cursor: pointer;
+	background: #01B6FF;
+	padding: 5px 10px 5px 10px;
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	color: #fff;
+	font-size: 15px;
+	border: 1px solid #4682be;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.07) inset, 0px 0px
+		0px 3px rgb(254, 254, 254), 0px 5px 3px 3px rgb(210, 210, 210);
+	-moz-box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.07) inset, 0px 0px 0px
+		3px rgb(254, 254, 254), 0px 5px 3px 3px rgb(210, 210, 210);
+	box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.07) inset, 0px 0px 0px 3px
+		rgb(254, 254, 254), 0px 5px 3px 3px rgb(210, 210, 210);
+}
+
+.btnNext:hover {
+	background: #54a4d7;
+}
+
+.btnsubmit:hover {
+	background: #54a4d7;
+}
+
+.btnreset:hover {
+	background: #54a4d7;
+}
+
+/*注册完成*/
+.reigsterinput-progress-ok {
+	width: 800px;
+	height: 440px;
+	font-size: 13px;
+	position: relative;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	display: none;
+}
+
+.titleok {
+	width: 700px;
+	height: 380px;
+	margin: 0 auto;
+	box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.reigsterinput-progress-ok .titleok img {
+	width: 700px;
+	height: 380px;
+}
+
+.btnReturnLogin {
+	margin-top: 24px;
+	margin-left: 350px;
+}

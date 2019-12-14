@@ -1,0 +1,131 @@
+body {
+	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.addequipment {
+	height: 600px;
+}
+
+.addequipment .addequipment-input {
+	height: 540px;
+	width: 500px;
+	margin: 28px;
+}
+
+.addequipment .addequipment-input .form-group {
+	width: 450px;
+	height: 40px;
+	text-indent: 2em;
+	margin-top: 12px;
+	color: #4a4a4a;
+	font-size: 12px;
+}
+
+.addequipment .addequipment-input .form-group input {
+	width: 220px;
+	height: 26px;
+	border: 1px solid #D5DBE2;
+	margin-left: 20px;
+	border-radius: 4px;
+	text-indent: 1em;
+	font-size: 12px;
+}
+
+#equipmentTypeId {
+	width: 120px;
+	height: 26px;
+	text-indent: 2em;
+	border: 1px solid #D5DBE2;
+	margin-left: 20px;
+	border-radius: 4px;
+	color: #4a4a4a;
+	font-size: 12px;
+	margin-left: 20px;
+	border-radius: 4px;
+}
+
+.addequipment .addequipment-input .form-group:nth-child(8) {
+	width: 450px;
+	height: 90px;
+	text-indent: 2em;
+	margin-top: 10px;
+	color: #4a4a4a;
+	font-size: 12px;
+}
+
+.addequipment .addequipment-input .form-group:nth-child(4) input {
+	width: 100px;
+}
+
+.addequipment .addequipment-input .form-group:nth-child(5) input {
+	width: 30px;
+	height: 16px;
+	margin-left: 20px;
+	text-indent: 0em;
+}
+
+.min,.add {
+	width: 25px;
+	background-color: #23AEF4;
+	color: white;
+	font-weight: bold;
+	color: #23AEF4;
+	background-color: white;
+}
+
+.min:HOVER {
+	background-color: #23AEF4;
+	color: white;
+}
+
+.add:HOVER {
+	background-color: #23AEF4;
+	color: white;
+}
+
+.addequipment .addequipment-input .form-group .textarea {
+	width: 200px;
+	height: 80px;
+	margin-left: 58px;
+}
+
+.addequipment .addequipment-input .form-group:last-child input {
+	width: 70px;
+	height: 30px;
+	text-indent: 0em;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+
+.btnsubmit {
+	background-color: #23AEF4;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.btnmoreadd {
+	background-color: #8CE135;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.btnsubmit:HOVER {
+	background-color: #23AEF4;
+	color: white;
+	font-size: 12px;
+	border: 1px solid #9A9A9A;
+}
+
+.btnmoreadd:HOVER {
+	background-color: #23AEF4;
+	color: white;
+	font-size: 12px;
+	border: 1px solid #9A9A9A;
+}

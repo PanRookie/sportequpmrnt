@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.addequipment {
+	width: 1400px;
+	height: 500px;
+	border: 1px solid red;
+}
+
+table {
+	width: 1100px;
+	border-collapse: collapse;
+	font-family: Arial;
+}
+
+tr{
+	font-weight: bold;
+	font-size: 13px;
+}
+
+th {
+	background-color: #359DE1;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-family: '';
+	font-size: 13px;
+	height: 30px;
+}
+td{
+	height: 29px;
+	width: 140px;
+	text-align: center;
+}
+td:FIRST-CHILD{
+	width: 50px;
+}
+
+input {
+	height: 100%;
+	width: 100%;
+	border:none;
+	
+}
+/* td:nth-child(5) input {
+	width: 30px;
+	height: 20px;
+	text-align: center;
+}
+ */
+.min,.add,.text_number{
+	width: 25px;
+	height:20px;
+	background-color: #23AEF4;
+	color: white;
+	font-weight: bold;
+	color: #23AEF4;
+	background-color: white;
+	border: 1px solid #23AEF4;
+	margin:3px; 
+	text-align: center;
+	
+}
+.min:HOVER{
+	background-color: #23AEF4;
+	color: white;
+}
+.add:HOVER{
+	background-color: #23AEF4;
+	color: white;
+}
+.text_number {
+	
+}
+#equipmentTypeId{
+		width: 130px;
+		height: 100%;
+}
+/*  */
